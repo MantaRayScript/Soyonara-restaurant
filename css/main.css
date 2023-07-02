@@ -1,0 +1,399 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  background-color: #242322;
+  font-family: "Montserrat", sans-serif;
+  color: #f6f6f6;
+}
+
+html {
+  scroll-padding-top: 59;
+}
+
+h2 {
+  margin-top: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Stalinist One", cursive;
+}
+
+.underline {
+  margin: 0 auto 40px;
+  width: 80px;
+  height: 4px;
+  background-color: #ea9561;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #f6f6f6;
+}
+.nav .logotype {
+  display: flex;
+  align-items: center;
+}
+.nav .logotype h1 {
+  font-family: "Stalinist One", cursive;
+  font-size: 2.1rem;
+  color: #e56517;
+}
+.nav .nav-icon {
+  padding: 10px;
+}
+.nav i {
+  font-size: 3rem;
+  color: #e56517;
+}
+.nav .nav-desktop {
+  display: none;
+}
+
+header .hero-img {
+  position: relative;
+  height: 60vh;
+  background-image: url("../img/hero-img-mobile.jpg");
+  background-size: cover;
+  background-position: 45%;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+header .hero-shadow {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #242322;
+  opacity: 0.3;
+  z-index: -1;
+}
+header .hero-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+header .hero-text h1 {
+  font-family: "Stalinist One", cursive;
+  font-size: 3rem;
+}
+header .hero-text h1 span {
+  font-size: 3.5rem;
+  color: #e56517;
+}
+header .hero-text p {
+  font-family: "Kanit", sans-serif;
+  font-size: 1.5rem;
+  text-shadow: #242322 1px 0 10px;
+}
+header .hero-text .hero-btn {
+  margin-top: 15px;
+}
+header .hero-text .hero-btn a {
+  padding: 8px;
+  border: 2px solid #e56517;
+  border-radius: 10px;
+  background-color: #e56517;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f6f6f6;
+}
+header .see-the-menu {
+  position: absolute;
+  bottom: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Kanit", sans-serif;
+  font-size: 1.7rem;
+}
+header .fa-chevron-down {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  color: #f6f6f6;
+  color: #ea9561;
+}
+
+.about-us .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about-us .wrapper .about-us-img {
+  margin-bottom: 15px;
+  height: 50vh;
+  width: 85vw;
+  background-image: url("../img/about-us-small.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+.about-us .wrapper .about-us-txt {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+.about-us .wrapper .about-us-txt::first-letter {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.special-offers {
+  background-color: #e56517;
+}
+.special-offers .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.special-offers .container .offer-box {
+  padding: 15px;
+  margin: 15px;
+  width: 300px;
+  border-radius: 15px;
+  background-color: #ea9561;
+  box-shadow: rgb(163, 57, 0) 0px 0 15px;
+}
+.special-offers .container .offer-box .offer-header {
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.special-offers .container .offer-box .offer-img {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-position: top;
+  border-radius: 10px;
+  box-shadow: 0px 5px 8px rgba(163, 57, 0, 0.5);
+}
+.special-offers .container .offer-box .first-special {
+  background-image: url("../img/offers/nigiriOffer-mobile.png");
+}
+.special-offers .container .offer-box .second-special {
+  background-image: url("../img/offers/makiOffer-mobile.png");
+}
+.special-offers .container .offer-box .third-special {
+  background-image: url("../img/offers/setOffer-mobile.png");
+}
+.special-offers .container .offer-box .offer-txt {
+  padding-top: 10px;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+.special-offers .container .offer-box .offer-txt::first-letter {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.special-offers .container .offer-box .offer-price {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.menu .menu-bg {
+  position: relative;
+  height: 60vh;
+  background-image: url("../img/menu-img-mobile.jpg");
+  background-size: cover;
+  background-position: 45%;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+.menu .menu-bg-shadow {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #242322;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.book-table {
+  position: relative;
+  height: 15vh;
+  background-color: #e56517;
+}
+.book-table .book-table-txt {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.book-table i {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.book-table-form {
+  background-color: #f0c5ab;
+}
+
+.team .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.team .container .team-box {
+  padding: 15px;
+  margin: 15px;
+  width: 300px;
+  border-radius: 15px;
+  background-color: #404040;
+  box-shadow: black 0px 0 15px;
+}
+.team .container .team-box .team-photo {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: top;
+  border-radius: 10px;
+}
+.team .container .team-box .ceo {
+  background-image: url("../img/team/takumi-small.png");
+}
+.team .container .team-box .sushi-master {
+  background-image: url("../img/team/yuto-small.png");
+}
+.team .container .team-box .jr-sushi-master {
+  background-image: url("../img/team/hiro-small.png");
+}
+.team .container .team-box .chef {
+  background-image: url("../img/team/jiro-small.png");
+}
+.team .container .team-box .sweets-master {
+  background-image: url("../img/team/yoko-small.png");
+}
+.team .container .team-box .bartender {
+  background-image: url("../img/team/miles-small.png");
+}
+.team .container .team-box .waiter {
+  background-image: url("../img/team/lena-small.png");
+}
+
+.contact {
+  padding-top: 5px;
+  background-color: #e56517;
+}
+.contact .container {
+  display: flex;
+  justify-content: space-around;
+}
+.contact .container .social-media {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact .container .social-media .left,
+.contact .container .social-media .right {
+  padding: 10px;
+}
+.contact .container .social-media i {
+  padding: 10px;
+  font-size: 2rem;
+  color: #f6f6f6;
+}
+.contact .container .address h3 {
+  font-family: "Kanit", sans-serif;
+  font-size: 1.5rem;
+}
+.contact .container .address p {
+  font-size: 1.2rem;
+}
+
+.disclaimer {
+  text-align: center;
+}
+.disclaimer .disclaimer-header {
+  padding: 10px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.disclaimer .disclaimer-note {
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+.disclaimer .disclaimer-note a {
+  color: #f6f6f6;
+  transition: color 0.5s;
+}
+.disclaimer .disclaimer-note a:hover {
+  font-weight: bold;
+  color: #ea9561;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #f6f6f6;
+  color: #242322;
+}
+
+@media (min-width: 768px) {
+  .nav .nav-icon {
+    display: none;
+  }
+  .nav .nav-desktop {
+    display: block;
+  }
+  .nav .nav-desktop .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .nav .nav-desktop .nav-list a {
+    padding: 15px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #242322;
+    transition: color 0.5s;
+  }
+  .nav .nav-desktop .nav-list a:hover {
+    color: #e56517;
+  }
+}
+@media (min-width: 992px) {
+  header .hero-img {
+    background-image: url("../img/hero-img-desktop.jpg");
+  }
+  .menu .menu-bg {
+    background-image: url("../img/menu-img-desktop.jpg");
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,443 @@
+@use "./colors" as colors;
+@use "./fonts" as fonts;
+@use "./images" as images;
+
+@mixin container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 15px;
+}
+@mixin box {
+	padding: 15px;
+	margin: 15px;
+	width: 300px;
+	border-radius: 15px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: 62.5%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+	background-color: colors.$backgroundColor;
+	font-family: fonts.$textFont;
+	color: colors.$lightWhite;
+}
+
+html {
+	scroll-padding-top: 59;
+}
+
+h2 {
+	margin-top: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-family: fonts.$headerFont;
+}
+
+.underline {
+	margin: 0 auto 40px;
+	width: 80px;
+	height: 4px;
+	background-color: colors.$mainColor;
+}
+
+// <-----NAVIGATION----->
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+	background-color: colors.$lightWhite;
+	.logotype {
+		display: flex;
+		align-items: center;
+		h1 {
+			font-family: fonts.$headerFont;
+			font-size: 2.1rem;
+			color: colors.$darkMainColor;
+		}
+	}
+	.nav-icon {
+		padding: 10px;
+	}
+	i {
+		font-size: 3rem;
+		color: colors.$darkMainColor;
+	}
+	.nav-desktop {
+		display: none;
+	}
+}
+
+// <----HERO IMAGE---->
+
+header {
+	.hero-img {
+		position: relative;
+		height: 60vh;
+		background-image: images.$heroImageMobile;
+		background-size: cover;
+		background-position: 45%;
+		background-repeat: no-repeat;
+		z-index: 0;
+	}
+	.hero-shadow {
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-color: colors.$backgroundColor;
+		opacity: 0.3;
+		z-index: -1;
+	}
+	.hero-text {
+		position: absolute;
+		top: 20%;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+		h1 {
+			font-family: fonts.$headerFont;
+			font-size: 3rem;
+			span {
+				font-size: 3.5rem;
+				color: colors.$darkMainColor;
+			}
+		}
+		p {
+			font-family: fonts.$headerSecondFont;
+			font-size: 1.5rem;
+			text-shadow: colors.$backgroundColor 1px 0 10px;
+		}
+		.hero-btn {
+			margin-top: 15px;
+			a {
+				padding: 8px;
+				border: 2px solid colors.$darkMainColor;
+				border-radius: 10px;
+				background-color: colors.$darkMainColor;
+				font-size: 1.2rem;
+				font-weight: bold;
+				text-decoration: none;
+				color: colors.$lightWhite;
+			}
+		}
+	}
+	.see-the-menu {
+		position: absolute;
+		bottom: 6%;
+		left: 50%;
+		transform: translateX(-50%);
+		font-family: fonts.$headerSecondFont;
+		font-size: 1.7rem;
+	}
+	.fa-chevron-down {
+		position: absolute;
+		bottom: 2%;
+		left: 50%;
+		transform: translateX(-50%);
+		font-size: 3rem;
+		color: colors.$lightWhite;
+		color: colors.$mainColor;
+	}
+}
+
+// <----ABOUT US SECTION---->
+
+.about-us {
+	.wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		.about-us-img {
+			margin-bottom: 15px;
+			height: 50vh;
+			width: 85vw;
+			background-image: images.$aboutUsImageMobile;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px black;
+		}
+		.about-us-txt {
+			font-size: 1.3rem;
+			letter-spacing: 1px;
+		}
+		.about-us-txt::first-letter{
+			font-weight: bold;
+			font-size: 1.5rem;
+		}
+	}
+}
+
+// <----SPECIAL OFFERS--->
+
+.special-offers {
+	background-color: colors.$darkMainColor;
+	.container {
+		@include container;
+		.offer-box {
+			@include box;
+			background-color: colors.$mainColor;
+			box-shadow: rgb(163, 57, 0) 0px 0 15px;
+			.offer-header {
+				padding-bottom: 10px;
+				text-align: center;
+				font-size: 1.6rem;
+			}
+			.offer-img {
+				width: 100%;
+				height: 150px;
+				background-size: cover;
+				background-position: top;
+				border-radius: 10px;
+				box-shadow: 0px 5px 8px rgba(163, 57, 0, 0.5);
+			}
+			.first-special {
+				background-image: images.$firstOfferPhotoMobile;
+			}
+			.second-special {
+				background-image: images.$secondOfferPhotoMobile;
+			}
+			.third-special {
+				background-image: images.$thirdOfferPhotoMobile;
+			}
+			.offer-txt {
+				padding-top: 10px;
+				font-size: 1.3rem;
+				letter-spacing: 1px;
+			}
+			.offer-txt::first-letter {
+				font-weight: bold;
+				font-size: 1.5rem;
+			}
+			.offer-price {
+				text-align: right;
+				font-weight: bold;
+				font-size: 1.7rem;
+			}
+		}
+	}
+}
+
+// <----MENU---->
+
+.menu {
+	.menu-bg {
+		position: relative;
+		height: 60vh;
+		background-image: images.$menuBgMobile;
+		background-size: cover;
+		background-position: 45%;
+		background-repeat: no-repeat;
+		z-index: 0;
+	}
+	.menu-bg-shadow {
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-color: colors.$backgroundColor;
+		opacity: 0.3;
+		z-index: -1;
+	}
+}
+
+// <----BOOK A TABLE---->
+
+.book-table {
+	position: relative;
+	height: 15vh;
+	background-color: colors.$darkMainColor;
+	.book-table-txt {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 30%;
+		font-family: fonts.$textFont;
+		font-weight: 700;
+	}
+	i {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 10%;
+		font-size: 20px;
+		cursor: pointer;
+	}
+}
+
+.book-table-form {
+	background-color: colors.$secondaryColor;
+}
+
+.team {
+	.container {
+		@include container;
+		.team-box {
+			@include box;
+			background-color: colors.$backgroundLightColor;
+			box-shadow: black 0px 0 15px;
+			.team-photo {
+				width: 100%;
+				height: 250px;
+				background-size: cover;
+				background-position: top;
+				border-radius: 10px;
+			}
+			.ceo {
+				background-image: images.$ceoMobile;
+			}
+			.sushi-master {
+				background-image: images.$sushiMasterMobile;
+			}
+			.jr-sushi-master {
+				background-image: images.$jrSushiMasterMobile;
+			}
+			.chef {
+				background-image: images.$chefMobile;
+			}
+			.sweets-master {
+				background-image: images.$sweetsMasterMobile;
+			}
+			.bartender {
+				background-image: images.$bartenderMobile;
+			}
+			.waiter {
+				background-image: images.$waiterMobile;
+			}
+		}
+	}
+}
+
+.contact {
+	padding-top: 5px;
+	background-color: colors.$darkMainColor;
+	.container {
+		display: flex;
+		justify-content: space-around;
+		.social-media {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: center;
+			.left,
+			.right {
+				padding: 10px;
+			}
+			i {
+				padding: 10px;
+				font-size: 2rem;
+				color: colors.$lightWhite;
+			}
+		}
+		.address {
+			h3 {
+				font-family: fonts.$headerSecondFont;
+				font-size: 1.5rem;
+			}
+			p {
+				font-size: 1.2rem;
+			}
+		}
+	}
+}
+
+// .go-up {
+// 	position: fixed;
+// 	bottom: 35px;
+// 	right: 5px;
+// 	font-size: 30px;
+// 	color: red;
+// }
+
+.disclaimer {
+	text-align: center;
+	.disclaimer-header {
+		padding: 10px;
+		font-size: 1.3rem;
+		text-transform: uppercase;
+		text-decoration: underline;
+	}
+	.disclaimer-note {
+		font-size: 1rem;
+		padding-bottom: 10px;
+		a {
+			color: colors.$lightWhite;
+			transition: color 0.5s;
+		}
+		a:hover {
+			font-weight: bold;
+			color: colors.$mainColor;
+		}
+	}
+}
+
+footer {
+	padding: 10px;
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: fonts.$textFont;
+	font-weight: bold;
+	background-color: colors.$lightWhite;
+	color: colors.$backgroundColor;
+}
+
+// <----BREAKPOINTS--->
+
+@media (min-width: 768px) {
+	.nav {
+		.nav-icon {
+			display: none;
+		}
+		.nav-desktop {
+			display: block;
+			.nav-list {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				a {
+					padding: 15px;
+					font-size: 1.6rem;
+					font-weight: bold;
+					text-decoration: none;
+					text-transform: uppercase;
+					color: colors.$backgroundColor;
+					transition: color 0.5s;
+				}
+				a:hover {
+					color: colors.$darkMainColor;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	header {
+		.hero-img {
+			background-image: images.$heroImageDesktop;
+		}
+	}
+	.menu {
+		.menu-bg {
+			background-image: images.$menuBgDesktop;
+		}
+	}
+}
