@@ -2,9 +2,9 @@
 Hello everyone! :wave: This is my first repository for GitHub (please don't eat me).
 
 ## About The Project
-This is a project of a fictional japanese sushi restaurant located in Berlin (Germany). I did it for the challenge from SheCodes but unfortunately I did not have enough time to upload this project for the contest. Nevertheless I decided to continue the project on my own time.
-The project is still in progress and I would like to fix a few styling issues before I start learning JavaScript and implement JS into the project.
-Right now I consider myself as a beginner who knows a bit html and css but not JS (at least not for coding on my own:sweat_smile:). 
+This is a project of a fictional japanese sushi restaurant located in Berlin (Germany). I did it for the challenge from SheCodes but unfortunately I did not have enough time to upload this project for the contest. Nevertheless I decided to continue the project on my own time.\
+The project is still in progress and I would like to fix a few styling issues before I start learning JavaScript and implement JS into the project.\
+Right now I consider myself as a beginner who knows a bit html and css but not JS (at least not for coding on my own:sweat_smile:).\
 I will keep updating this file while working on the project.
 
 
