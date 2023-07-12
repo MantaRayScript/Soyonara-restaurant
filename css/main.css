@@ -309,6 +309,10 @@ header .fa-chevron-down {
 .team .container .team-box .waiter {
   background-image: url("../img/team/lena-small.png");
 }
+.team .container .team-box p {
+  margin-top: 15px;
+  font-size: 1.4rem;
+}
 
 .contact {
   padding-top: 5px;
