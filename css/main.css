@@ -23,7 +23,8 @@ html {
 }
 
 h2 {
-  margin-top: 15px;
+  position: relative;
+  top: 10px;
   text-align: center;
   text-transform: uppercase;
   font-size: 2rem;
@@ -31,7 +32,11 @@ h2 {
 }
 
 .underline {
-  margin: 0 auto 40px;
+  position: relative;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 10px;
   width: 80px;
   height: 4px;
   background-color: #ea9561;
@@ -133,13 +138,16 @@ header .fa-chevron-down {
   color: #ea9561;
 }
 
+.about-us {
+  margin-bottom: 10px;
+}
 .about-us .wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .about-us .wrapper .about-us-img {
-  margin-bottom: 15px;
+  margin: 15px 0 15px;
   height: 50vh;
   width: 85vw;
   background-image: url("../img/about-us-small.jpg");
