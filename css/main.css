@@ -356,7 +356,8 @@ header .fa-chevron-down {
   text-decoration: underline;
 }
 .disclaimer .disclaimer-note {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  margin: 10px 15px;
   padding-bottom: 10px;
 }
 .disclaimer .disclaimer-note a {
