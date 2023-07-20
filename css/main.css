@@ -345,26 +345,25 @@ header .fa-chevron-down {
 }
 .contact .container .social-media {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-}
-.contact .container .social-media .left,
-.contact .container .social-media .right {
+  width: 100%;
   padding: 10px;
 }
-.contact .container .social-media i {
-  padding: 10px;
-  font-size: 2rem;
+.contact .container .social-media a .fa-brands {
+  font-size: 4.5rem;
   color: #f6f6f6;
+}
+.contact .container .address {
+  width: 100%;
+  padding: 1.3rem;
 }
 .contact .container .address h3 {
   font-family: "Kanit", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 .contact .container .address p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .disclaimer {
