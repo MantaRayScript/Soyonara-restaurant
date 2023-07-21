@@ -146,19 +146,20 @@ header .hero-text .hero-btn a {
   color: #f6f6f6;
 }
 header .see-the-menu {
-  position: absolute;
-  bottom: 6%;
+  position: relative;
+  top: 85%;
   left: 50%;
   transform: translateX(-50%);
   font-family: "Kanit", sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
 }
 header .fa-chevron-down {
   position: absolute;
   bottom: 2%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 3rem;
+  font-size: 4.5rem;
   color: #f6f6f6;
   color: #ea9561;
 }
