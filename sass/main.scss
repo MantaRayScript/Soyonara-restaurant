@@ -445,6 +445,9 @@ footer {
 	font-weight: bold;
 	background-color: colors.$lightWhite;
 	color: colors.$backgroundColor;
+	.fa-copyright {
+		font-size: 1.5rem;
+	}
 }
 
 // <----BREAKPOINTS--->

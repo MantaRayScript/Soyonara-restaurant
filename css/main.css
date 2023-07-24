@@ -420,6 +420,9 @@ footer {
   background-color: #f6f6f6;
   color: #242322;
 }
+footer .fa-copyright {
+  font-size: 1.5rem;
+}
 
 @media (min-width: 768px) {
   .nav .nav-icon {
