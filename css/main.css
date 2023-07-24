@@ -410,10 +410,6 @@ header .fa-chevron-down {
   color: #f6f6f6;
   transition: color 0.5s;
 }
-.disclaimer .disclaimer-note a:hover {
-  font-weight: bold;
-  color: #ea9561;
-}
 
 footer {
   padding: 10px;
