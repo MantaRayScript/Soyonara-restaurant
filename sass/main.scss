@@ -318,23 +318,24 @@ header {
 
 .book-table {
 	position: relative;
-	height: 15vh;
+	height: 20vh;
 	background-color: colors.$darkMainColor;
 	.book-table-txt {
 		position: absolute;
 		left: 50%;
-		transform: translateX(-50%);
+		transform: translate(-50%);
 		bottom: 30%;
+		font-size: 1.2rem;
 		font-family: fonts.$textFont;
 		font-weight: 700;
+		text-align: center;
 	}
-	i {
+	i.fa-circle-down {
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
-		bottom: 10%;
-		font-size: 20px;
-		cursor: pointer;
+		bottom: 5%;
+		font-size: 3.5rem;
 	}
 }
 
@@ -445,7 +446,7 @@ footer {
 	font-weight: bold;
 	background-color: colors.$lightWhite;
 	color: colors.$backgroundColor;
-	.fa-copyright {
+	i.fa-copyright {
 		font-size: 1.5rem;
 	}
 }

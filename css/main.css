@@ -290,24 +290,25 @@ header .fa-chevron-down {
 
 .book-table {
   position: relative;
-  height: 15vh;
+  height: 20vh;
   background-color: #e56517;
 }
 .book-table .book-table-txt {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%);
   bottom: 30%;
+  font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  text-align: center;
 }
-.book-table i {
+.book-table i.fa-circle-down {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 10%;
-  font-size: 20px;
-  cursor: pointer;
+  bottom: 5%;
+  font-size: 3.5rem;
 }
 
 .book-table-form {
@@ -420,7 +421,7 @@ footer {
   background-color: #f6f6f6;
   color: #242322;
 }
-footer .fa-copyright {
+footer i.fa-copyright {
   font-size: 1.5rem;
 }
 
