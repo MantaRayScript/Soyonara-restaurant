@@ -170,7 +170,7 @@ header {
 	}
 	.see-the-menu {
 		position: relative;
-		top: 85%;
+		top: 80%;
 		left: 50%;
 		transform: translateX(-50%);
 		font-family: fonts.$headerSecondFont;
@@ -343,6 +343,8 @@ header {
 	background-color: colors.$secondaryColor;
 }
 
+// <-----TEAM----->
+
 .team {
 	.container {
 		@include container;
@@ -386,6 +388,8 @@ header {
 	}
 }
 
+// <----CONTACT----->
+
 .contact {
 	padding-top: 5px;
 	background-color: colors.$darkMainColor;
@@ -419,6 +423,14 @@ header {
 	}
 }
 
+// <-----GO UP ICON---->
+
+.go-up {
+	display: none;
+}
+
+// <-----DISCLAIMER----->
+
 .disclaimer {
 	text-align: center;
 	.disclaimer-header {
@@ -437,6 +449,8 @@ header {
 		}
 	}
 }
+
+// <-----FOOTER----->
 
 footer {
 	padding: 10px;

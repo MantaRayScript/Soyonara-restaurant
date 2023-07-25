@@ -147,7 +147,7 @@ header .hero-text .hero-btn a {
 }
 header .see-the-menu {
   position: relative;
-  top: 85%;
+  top: 80%;
   left: 50%;
   transform: translateX(-50%);
   font-family: "Kanit", sans-serif;
@@ -391,6 +391,10 @@ header .fa-chevron-down {
 }
 .contact .container .address p {
   font-size: 1.3rem;
+}
+
+.go-up {
+  display: none;
 }
 
 .disclaimer {
