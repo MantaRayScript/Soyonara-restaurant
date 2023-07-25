@@ -313,6 +313,9 @@ header .fa-chevron-down {
 
 .book-table-form {
   background-color: #f0c5ab;
+  color: #242322;
+  font-weight: bold;
+  justify-content: center;
 }
 
 .team .container {
