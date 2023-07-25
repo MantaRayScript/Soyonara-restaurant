@@ -340,10 +340,50 @@ header {
 }
 
 .book-table-form {
+	display: none;
+	padding: 15px;
 	background-color: colors.$secondaryColor;
 	color: colors.$backgroundColor;
-	font-weight: bold;
-	justify-content: center;
+	legend {
+		padding: 0px 10px 10px;
+		font-weight: bold;
+	}
+	label {
+		padding-left: 10px;
+		font-weight: bold;
+		font-size: 1.2rem;
+	}
+	input {
+		margin: 10px auto;
+		padding: 5px;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%);
+		width: 90%;
+		font-size: 1.1rem;
+		text-align: center;
+		border-radius: 10px;
+	}
+	button {
+		position: relative;
+		left: 50%;
+		transform: translate(-50%);
+		margin: 10px auto 15px;
+		padding: 10px 15px;
+		text-transform: uppercase;
+		font-size: 1.1rem;
+		font-weight: bold;
+		border-radius: 10px;
+	}
+	p.send-confirmation {
+		display: none;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%);
+		margin-bottom: 5px;
+		width: 80%;
+		text-align: center;
+	}
 }
 
 // <-----TEAM----->

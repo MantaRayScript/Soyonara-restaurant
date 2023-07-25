@@ -312,10 +312,50 @@ header .fa-chevron-down {
 }
 
 .book-table-form {
+  display: none;
+  padding: 15px;
   background-color: #f0c5ab;
   color: #242322;
+}
+.book-table-form legend {
+  padding: 0px 10px 10px;
   font-weight: bold;
-  justify-content: center;
+}
+.book-table-form label {
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.book-table-form input {
+  margin: 10px auto;
+  padding: 5px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 90%;
+  font-size: 1.1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.book-table-form button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 10px auto 15px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.book-table-form p.send-confirmation {
+  display: none;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 5px;
+  width: 80%;
+  text-align: center;
 }
 
 .team .container {
