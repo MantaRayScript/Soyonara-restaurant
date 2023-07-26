@@ -197,14 +197,50 @@
 					method="get"
 					class="booking-form">
 					<fieldset>
-						<legend> Please, fulfill the form to book a table: </legend>
-					<div><label for="name">Name: </label><input type="text" name="client-name" id="client-name" placeholder="Write your name here..." required></div>
-					<div><label for="email">Write your email</label><input type="email" name="client-email" id="client-email" placeholder="Write your email address here..." required></div>
-					<div><label for="telefone">Write your phone number</label><input type="tel" name="client-phone" id="client-phone" placeholder="Write your telephone number here..." required></div>
-					<div><label for="date">Choose the date and time</label><input type="datetime-local" name="book-date" id="book-date" value="2023-07-25T20:46" min="2023-07-25T20:46" max="2024-12-31T20:00"></div>
-					<button class="book-send-btn">Send the request</button>
-					<p class="send-confirmation">Thank you! We will send your a confirmation email if the table is available.</p>
-				</fieldset>
+						<legend>Please, fulfill the form to book a table:</legend>
+						<div>
+							<label for="name">Name: </label
+							><input
+								type="text"
+								name="client-name"
+								id="client-name"
+								placeholder="Write your name here..."
+								required />
+						</div>
+						<div>
+							<label for="email">Email</label
+							><input
+								type="email"
+								name="client-email"
+								id="client-email"
+								placeholder="Write your email address here..."
+								required />
+						</div>
+						<div>
+							<label for="telefone">Phone number</label
+							><input
+								type="tel"
+								name="client-phone"
+								id="client-phone"
+								placeholder="Write your telephone number here..."
+								required />
+						</div>
+						<div>
+							<label for="date">Choose the date and time</label
+							><input
+								type="datetime-local"
+								name="book-date"
+								id="book-date"
+								value="2023-07-25T20:46"
+								min="2023-07-25T20:46"
+								max="2024-12-31T20:00" />
+						</div>
+						<button class="book-send-btn">Send the request</button>
+						<p class="send-confirmation">
+							Thank you! We will send your a confirmation email if the table is
+							available.
+						</p>
+					</fieldset>
 				</form>
 			</section>
 			<section
@@ -358,7 +394,9 @@
 					</div>
 				</div>
 			</section>
-			<div class="go-up"><a href="#home"><i class="fa-solid fa-angles-up"></i></a></div>
+			<div class="go-up">
+				<a href="#home"><i class="fa-solid fa-angles-up"></i></a>
+			</div>
 		</main>
 		<section class="disclaimer">
 			<h3 class="disclaimer-header">disclaimer</h3>
