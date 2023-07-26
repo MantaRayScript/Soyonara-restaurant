@@ -9,6 +9,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 59;
 }
 
 body {
@@ -16,10 +17,6 @@ body {
   background-color: #242322;
   font-family: "Montserrat", sans-serif;
   color: #f6f6f6;
-}
-
-html {
-  scroll-padding-top: 59;
 }
 
 h2 {

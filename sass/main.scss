@@ -26,6 +26,7 @@
 
 html {
 	scroll-behavior: smooth;
+	scroll-padding-top: 59;
 }
 
 body {
@@ -33,10 +34,6 @@ body {
 	background-color: colors.$backgroundColor;
 	font-family: fonts.$textFont;
 	color: colors.$lightWhite;
-}
-
-html {
-	scroll-padding-top: 59;
 }
 
 h2 {
