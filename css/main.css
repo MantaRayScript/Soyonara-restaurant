@@ -451,11 +451,9 @@ header .fa-chevron-down {
 .disclaimer .disclaimer-note {
   font-size: 1.1rem;
   margin: 10px 15px;
-  padding-bottom: 10px;
 }
 .disclaimer .disclaimer-note a {
   color: #f6f6f6;
-  transition: color 0.5s;
 }
 
 footer {
@@ -472,28 +470,190 @@ footer i.fa-copyright {
 }
 
 @media (min-width: 768px) {
+  h2 {
+    top: 20px;
+    font-size: 2.5rem;
+  }
+  .underline {
+    top: 25px;
+    margin-bottom: 40px;
+    width: 100px;
+    height: 6px;
+  }
+  .nav .logotype h1 {
+    font-size: 2.8rem;
+  }
   .nav .nav-icon {
     display: none;
   }
   .nav .nav-desktop {
     display: block;
+    padding: 10px 25px;
   }
   .nav .nav-desktop .nav-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 15px;
   }
-  .nav .nav-desktop .nav-list a {
-    padding: 15px;
-    font-size: 1.6rem;
+  .nav .nav-desktop .nav-list li.nav-item {
+    padding-bottom: 20px;
+  }
+  .nav .nav-desktop .nav-list li.nav-item a {
+    padding: 10px;
+    font-size: 1.8rem;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
     color: #242322;
     transition: color 0.5s;
   }
-  .nav .nav-desktop .nav-list a:hover {
-    color: #e56517;
+  header .hero-text h1 {
+    font-size: 4.5rem;
+  }
+  header .hero-text h1 span {
+    font-size: 5rem;
+  }
+  header .hero-text p {
+    font-size: 2rem;
+  }
+  header .hero-text .hero-btn {
+    margin-top: 30px;
+  }
+  header .hero-text .hero-btn a {
+    font-size: 1.8rem;
+  }
+  header .see-the-menu {
+    top: 85%;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+  }
+  header .fa-chevron-down {
+    font-size: 6.2rem;
+  }
+  .about-us {
+    margin-bottom: 25px;
+  }
+  .about-us .wrapper .about-us-txt {
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+    letter-spacing: 1.2px;
+  }
+  .about-us .wrapper .about-us-txt::first-letter {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .special-offers .container {
+    padding-bottom: 20px;
+  }
+  .special-offers .container .offer-box .offer-header {
+    padding-bottom: 15px;
+    font-size: 2.2rem;
+  }
+  .special-offers .container .offer-box .offer-img {
+    height: 200px;
+  }
+  .special-offers .container .offer-box .offer-txt {
+    padding-top: 15px;
+    font-size: 1.7rem;
+    letter-spacing: 1.2px;
+  }
+  .special-offers .container .offer-box .offer-txt::first-letter {
+    font-size: 2rem;
+  }
+  .special-offers .container .offer-box .offer-price {
+    font-size: 2.2rem;
+  }
+  .menu .menu-bg {
+    height: 70vh;
+  }
+  .menu .menu-bg .menu-img {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url("../img/menu/menu-preview-mobile.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 80%;
+  }
+  .menu .menu-bg .menu-action-txt {
+    bottom: 35px;
+    font-size: 1.3rem;
+  }
+  .book-table .book-table-txt {
+    bottom: 35%;
+    font-size: 2.2rem;
+  }
+  .book-table i.fa-circle-down {
+    bottom: 15%;
+    font-size: 5rem;
+  }
+  .book-table-form {
+    padding: 15px;
+  }
+  .book-table-form legend {
+    font-size: 1.7rem;
+  }
+  .book-table-form label {
+    padding-left: 20px;
+    font-size: 1.7rem;
+  }
+  .book-table-form input {
+    font-size: 1.5rem;
+  }
+  .book-table-form button {
+    padding: 15px 20px;
+    font-size: 1.5rem;
+  }
+  .book-table-form p.send-confirmation {
+    font-size: 1.5rem;
+  }
+  .team .container .team-box .team-photo {
+    height: 300px;
+  }
+  .team .container .team-box p {
+    margin-top: 30px;
+    font-size: 1.7rem;
+  }
+  .contact {
+    padding-top: 5px;
+  }
+  .contact .container .social-media {
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 10px 35px;
+  }
+  .contact .container .social-media a .fa-brands {
+    font-size: 6rem;
+  }
+  .contact .container .address {
+    width: 100%;
+    padding: 1.3rem 1.3rem 2rem 4rem;
+  }
+  .contact .container .address h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 2.5rem;
+  }
+  .contact .container .address p {
+    padding-top: 4px;
+    font-size: 2rem;
+  }
+  .disclaimer .disclaimer-header {
+    padding: 20px;
+    font-size: 2rem;
+  }
+  .disclaimer .disclaimer-note {
+    font-size: 1.5rem;
+    margin: 5px 15px 20px;
+  }
+  footer {
+    font-size: 2.5rem;
+  }
+  footer i.fa-copyright {
+    font-size: 2.5rem;
   }
 }
 @media (min-width: 992px) {

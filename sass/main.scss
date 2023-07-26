@@ -39,7 +39,6 @@ body {
 }
 
 h2 {
-	// margin-top: 15px;
 	position: relative;
 	top: 10px;
 	text-align: center;
@@ -484,10 +483,8 @@ header {
 	.disclaimer-note {
 		font-size: 1.1rem;
 		margin: 10px 15px;
-		padding-bottom: 10px;
 		a {
 			color: colors.$lightWhite;
-			transition: color 0.5s;
 		}
 	}
 }
@@ -509,33 +506,228 @@ footer {
 
 // <----BREAKPOINTS--->
 
+// MEDIUM DEVICES (TABLETS)
+
 @media (min-width: 768px) {
+	h2 {
+		top: 20px;
+		font-size: 2.5rem;
+	}
+	.underline {
+		top: 25px;
+		margin-bottom: 40px;
+		width: 100px;
+		height: 6px;
+	}
 	.nav {
+		.logotype {
+			h1 {
+				font-size: 2.8rem;
+			}
+		}
 		.nav-icon {
 			display: none;
 		}
 		.nav-desktop {
 			display: block;
+			padding: 10px 25px;
 			.nav-list {
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: space-between;
-				a {
-					padding: 15px;
-					font-size: 1.6rem;
-					font-weight: bold;
-					text-decoration: none;
-					text-transform: uppercase;
-					color: colors.$backgroundColor;
-					transition: color 0.5s;
-				}
-				a:hover {
-					color: colors.$darkMainColor;
+				padding-top: 15px;
+				li.nav-item {
+					padding-bottom: 20px;
+					a {
+						padding: 10px;
+						font-size: 1.8rem;
+						font-weight: bold;
+						text-decoration: none;
+						text-transform: uppercase;
+						color: colors.$backgroundColor;
+						transition: color 0.5s;
+					}
 				}
 			}
 		}
 	}
+	header {
+		.hero-text {
+			h1 {
+				font-size: 4.5rem;
+				span {
+					font-size: 5rem;
+				}
+			}
+			p {
+				font-size: 2rem;
+			}
+			.hero-btn {
+				margin-top: 30px;
+				a {
+					font-size: 1.8rem;
+				}
+			}
+		}
+		.see-the-menu {
+			top: 85%;
+			font-size: 2.2rem;
+			letter-spacing: 2px;
+		}
+		.fa-chevron-down {
+			font-size: 6.2rem;
+		}
+	}
+	.about-us {
+		margin-bottom: 25px;
+		.wrapper {
+			.about-us-txt {
+				margin-bottom: 15px;
+				font-size: 1.7rem;
+				letter-spacing: 1.2px;
+			}
+			.about-us-txt::first-letter {
+				font-weight: bold;
+				font-size: 2rem;
+			}
+		}
+	}
+	.special-offers {
+		.container {
+			padding-bottom: 20px;
+			.offer-box {
+				.offer-header {
+					padding-bottom: 15px;
+					font-size: 2.2rem;
+				}
+				.offer-img {
+					height: 200px;
+				}
+				.offer-txt {
+					padding-top: 15px;
+					font-size: 1.7rem;
+					letter-spacing: 1.2px;
+				}
+				.offer-txt::first-letter {
+					font-size: 2rem;
+				}
+				.offer-price {
+					font-size: 2.2rem;
+				}
+			}
+		}
+	}
+	.menu {
+		.menu-bg {
+			height: 70vh;
+			.menu-img {
+				position: absolute;
+				top: 12%;
+				left: 50%;
+				transform: translate(-50%);
+				background-image: images.$menuPrvwMobile;
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				width: 50%;
+				height: 80%;
+			}
+			.menu-action-txt {
+				bottom: 35px;
+				font-size: 1.3rem;
+			}
+		}
+	}
+	.book-table {
+		.book-table-txt {
+			bottom: 35%;
+			font-size: 2.2rem;
+		}
+		i.fa-circle-down {
+			bottom: 15%;
+			font-size: 5rem;
+		}
+	}
+
+	.book-table-form {
+		padding: 15px;
+		legend {
+			font-size: 1.7rem;
+		}
+		label {
+			padding-left: 20px;
+			font-size: 1.7rem;
+		}
+		input {
+			font-size: 1.5rem;
+		}
+		button {
+			padding: 15px 20px;
+			font-size: 1.5rem;
+		}
+		p.send-confirmation {
+			font-size: 1.5rem;
+		}
+	}
+	.team {
+		.container {
+			.team-box {
+				.team-photo {
+					height: 300px;
+				}
+				p {
+					margin-top: 30px;
+					font-size: 1.7rem;
+				}
+			}
+		}
+	}
+	.contact {
+		padding-top: 5px;
+		.container {
+			.social-media {
+				justify-content: space-around;
+				width: 100%;
+				padding: 10px 10px 35px;
+				a {
+					.fa-brands {
+						font-size: 6rem;
+					}
+				}
+			}
+			.address {
+				width: 100%;
+				padding: 1.3rem 1.3rem 2rem 4rem;
+				h3 {
+					font-family: fonts.$headerSecondFont;
+					font-size: 2.5rem;
+				}
+				p {
+					padding-top: 4px;
+					font-size: 2rem;
+				}
+			}
+		}
+	}
+	.disclaimer {
+		.disclaimer-header {
+			padding: 20px;
+			font-size: 2rem;
+		}
+		.disclaimer-note {
+			font-size: 1.5rem;
+			margin: 5px 15px 20px;
+		}
+	}
+	footer {
+		font-size: 2.5rem;
+		i.fa-copyright {
+			font-size: 2.5rem;
+		}
+	}
 }
+
+// LARGE DEVICES (DESKTOPS)
 
 @media (min-width: 992px) {
 	header {
@@ -550,8 +742,9 @@ footer {
 	}
 }
 
+// X-LARGE DEVICES (LARGE DESKTOPS)
+
+@media (min-width: 1200px) {
+}
 // Work to do:
-// -> book a table text styling
-// -> Move all the hovers from mobile version to desktop version
-// -> Tablet version
 // -> Desktop version
