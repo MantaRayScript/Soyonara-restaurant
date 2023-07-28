@@ -69,6 +69,7 @@ h2 {
 	.logotype {
 		display: flex;
 		align-items: center;
+		// brakuje tu logotype-icon
 		h1 {
 			font-family: fonts.$headerFont;
 			font-size: 2.1rem;
@@ -548,7 +549,6 @@ footer {
 						text-decoration: none;
 						text-transform: uppercase;
 						color: colors.$backgroundColor;
-						transition: color 0.5s;
 					}
 				}
 			}
@@ -590,7 +590,6 @@ footer {
 				letter-spacing: 1.2px;
 			}
 			.about-us-txt::first-letter {
-				font-weight: bold;
 				font-size: 2rem;
 			}
 		}
@@ -686,11 +685,9 @@ footer {
 		}
 	}
 	.contact {
-		padding-top: 5px;
 		.container {
 			.social-media {
 				justify-content: space-around;
-				width: 100%;
 				padding: 10px 10px 35px;
 				a {
 					.fa-brands {
@@ -699,11 +696,9 @@ footer {
 				}
 			}
 			.address {
-				width: 100%;
 				padding: 1.3rem 1.3rem 2rem;
 				text-align: center;
 				h3 {
-					font-family: fonts.$headerSecondFont;
 					font-size: 2.5rem;
 				}
 				p {
@@ -734,14 +729,264 @@ footer {
 // LARGE DEVICES (DESKTOPS)
 
 @media (min-width: 992px) {
+	h2 {
+		top: 30px;
+		font-size: 3rem;
+	}
+	.underline {
+		top: 35px;
+		margin-bottom: 55px;
+		width: 120px;
+	}
+	.nav {
+		.logotype {
+			h1 {
+				font-size: 3.5rem;
+			}
+		}
+		.nav-desktop {
+			.nav-list {
+				li.nav-item {
+					padding-bottom: 25px;
+					a {
+						padding: 15px;
+						font-size: 2rem;
+						transition: 1s;
+					}
+					a:hover {
+						color: colors.$darkMainColor
+					}
+				}
+			}
+		}
+	}
 	header {
 		.hero-img {
 			background-image: images.$heroImageDesktop;
 		}
+		.hero-text {
+			h1 {
+				font-size: 5rem;
+				span {
+					font-size: 5.5rem;
+				}
+			}
+			p {
+				font-size: 2.5rem;
+			}
+			.hero-btn {
+				margin-top: 40px;
+				transition: 2s;
+				a {
+					font-size: 2.2rem;
+				}
+				// źle ustawiony font size i hover
+				.hero-btn:hover {
+					a {
+						font-size: 2.5rem;
+					}
+				}
+			}
+		}
+		.see-the-menu {
+			top: 85%;
+			font-size: 2.5rem;
+			letter-spacing: 2px;
+		}
+		.fa-chevron-down {
+			font-size: 6.5rem;
+			transition: 2s;
+		}
+		// animation for the chevron soon
+		.fa-chevron-down:hover {
+			font-size: 7rem;
+		}
+	}
+	.about-us {
+		margin-bottom: 25px;
+		.wrapper {
+			.about-us-img {
+				margin: 15px 0 15px;
+				height: 50vh;
+				width: 85vw;
+				background-image: images.$aboutUsImageDesktop;
+			}
+			.about-us-txt {
+				margin-bottom: 15px;
+				font-size: 1.7rem;
+				letter-spacing: 1.2px;
+			}
+			.about-us-txt::first-letter {
+				font-size: 2rem;
+			}
+		}
+	}
+	.special-offers {
+		.container {
+			padding-bottom: 20px;
+			.offer-box {
+				transition: 2s;
+				.offer-header {
+					padding-bottom: 15px;
+					font-size: 2.2rem;
+				}
+				.offer-img {
+					height: 200px;
+				}
+				.first-special {
+					background-image: images.$firstOfferPhotoDesktop;
+				}
+				.second-special {
+					background-image: images.$secondOfferPhotoDesktop;
+				}
+				.third-special {
+					background-image: images.$thirdOfferPhotoDesktop;
+				}
+				.offer-txt {
+					padding-top: 15px;
+					font-size: 1.7rem;
+					letter-spacing: 1.2px;
+				}
+				.offer-txt::first-letter {
+					font-size: 2rem;
+				}
+				.offer-price {
+					font-size: 2.2rem;
+				}
+			}
+			.offer-box:hover {
+				width: 320px;
+			}
+		}
 	}
 	.menu {
 		.menu-bg {
+			height: 70vh;
 			background-image: images.$menuBgDesktop;
+			.menu-img {
+				position: absolute;
+				top: 12%;
+				left: 50%;
+				transform: translate(-50%);
+				background-image: images.$menuPrvwMobile;
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				width: 50%;
+				height: 80%;
+			}
+			.menu-action-txt {
+				bottom: 35px;
+				font-size: 1.3rem;
+			}
+		}
+	}
+	.book-table {
+		.book-table-txt {
+			bottom: 35%;
+			font-size: 2.2rem;
+		}
+		i.fa-circle-down {
+			bottom: 15%;
+			font-size: 5rem;
+		}
+		// animation for the icon
+	}
+
+	.book-table-form {
+		padding: 15px;
+		legend {
+			font-size: 1.7rem;
+		}
+		label {
+			padding-left: 20px;
+			font-size: 1.7rem;
+		}
+		input {
+			font-size: 1.5rem;
+		}
+		button {
+			padding: 15px 20px;
+			font-size: 1.5rem;
+		}
+		p.send-confirmation {
+			font-size: 1.5rem;
+		}
+	}
+	.team {
+		.container {
+			.team-box {
+				.team-photo {
+					height: 300px;
+				}
+				.ceo {
+					background-image: images.$ceoDesktop;
+				}
+				.sushi-master {
+					background-image: images.$sushiMasterDesktop;
+				}
+				.jr-sushi-master {
+					background-image: images.$jrSushiMasterDesktop;
+				}
+				.chef {
+					background-image: images.$chefDesktop;
+				}
+				.sweets-master {
+					background-image: images.$sweetsMasterDesktop;
+				}
+				.bartender {
+					background-image: images.$bartenderDesktop;
+				}
+				.waiter {
+					background-image: images.$waiterDesktop;
+				}
+				p {
+					margin-top: 30px;
+					font-size: 1.7rem;
+				}
+			}
+		}
+	}
+	.contact {
+		.container {
+			.social-media {
+				justify-content: space-around;
+				width: 100%;
+				padding: 10px 10px 35px;
+				a {
+					.fa-brands {
+						font-size: 6rem;
+					}
+				}
+			}
+			.address {
+				h3 {
+					font-size: 2.5rem;
+				}
+				p {
+					padding-top: 4px;
+					font-size: 2rem;
+				}
+			}
+		}
+	}
+	.go-up {
+		display: none;
+	}
+	.disclaimer {
+		.disclaimer-header {
+			padding: 20px;
+			font-size: 2rem;
+		}
+		.disclaimer-note {
+			font-size: 1.5rem;
+			margin: 5px 15px 20px;
+		}
+	}
+	footer {
+		font-size: 2.5rem;
+		i.fa-copyright {
+			font-size: 2.5rem;
 		}
 	}
 }
@@ -750,5 +995,4 @@ footer {
 
 @media (min-width: 1200px) {
 }
-// Work to do:
-// -> Desktop version
+

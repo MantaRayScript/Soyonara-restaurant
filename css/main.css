@@ -509,7 +509,6 @@ footer i.fa-copyright {
     text-decoration: none;
     text-transform: uppercase;
     color: #242322;
-    transition: color 0.5s;
   }
   header .hero-text h1 {
     font-size: 4.5rem;
@@ -543,7 +542,6 @@ footer i.fa-copyright {
     letter-spacing: 1.2px;
   }
   .about-us .wrapper .about-us-txt::first-letter {
-    font-weight: bold;
     font-size: 2rem;
   }
   .special-offers .container {
@@ -621,24 +619,18 @@ footer i.fa-copyright {
     margin-top: 30px;
     font-size: 1.7rem;
   }
-  .contact {
-    padding-top: 5px;
-  }
   .contact .container .social-media {
     justify-content: space-around;
-    width: 100%;
     padding: 10px 10px 35px;
   }
   .contact .container .social-media a .fa-brands {
     font-size: 6rem;
   }
   .contact .container .address {
-    width: 100%;
     padding: 1.3rem 1.3rem 2rem;
     text-align: center;
   }
   .contact .container .address h3 {
-    font-family: "Kanit", sans-serif;
     font-size: 2.5rem;
   }
   .contact .container .address p {
@@ -661,10 +653,222 @@ footer i.fa-copyright {
   }
 }
 @media (min-width: 992px) {
+  h2 {
+    top: 30px;
+    font-size: 3rem;
+  }
+  .underline {
+    top: 35px;
+    margin-bottom: 55px;
+    width: 120px;
+  }
+  .nav .logotype h1 {
+    font-size: 3.5rem;
+  }
+  .nav .nav-desktop .nav-list li.nav-item {
+    padding-bottom: 25px;
+  }
+  .nav .nav-desktop .nav-list li.nav-item a {
+    padding: 15px;
+    font-size: 2rem;
+    transition: 1s;
+  }
+  .nav .nav-desktop .nav-list li.nav-item a:hover {
+    color: #e56517;
+  }
   header .hero-img {
     background-image: url("../img/hero-img-desktop.jpg");
   }
+  header .hero-text h1 {
+    font-size: 5rem;
+  }
+  header .hero-text h1 span {
+    font-size: 5.5rem;
+  }
+  header .hero-text p {
+    font-size: 2.5rem;
+  }
+  header .hero-text .hero-btn {
+    margin-top: 40px;
+    transition: 2s;
+  }
+  header .hero-text .hero-btn a {
+    font-size: 2.2rem;
+  }
+  header .hero-text .hero-btn .hero-btn:hover a {
+    font-size: 2.5rem;
+  }
+  header .see-the-menu {
+    top: 85%;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+  header .fa-chevron-down {
+    font-size: 6.5rem;
+    transition: 2s;
+  }
+  header .fa-chevron-down:hover {
+    font-size: 7rem;
+  }
+  .about-us {
+    margin-bottom: 25px;
+  }
+  .about-us .wrapper .about-us-img {
+    margin: 15px 0 15px;
+    height: 50vh;
+    width: 85vw;
+    background-image: url("../img/about-us-large.jpg");
+  }
+  .about-us .wrapper .about-us-txt {
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+    letter-spacing: 1.2px;
+  }
+  .about-us .wrapper .about-us-txt::first-letter {
+    font-size: 2rem;
+  }
+  .special-offers .container {
+    padding-bottom: 20px;
+  }
+  .special-offers .container .offer-box {
+    transition: 2s;
+  }
+  .special-offers .container .offer-box .offer-header {
+    padding-bottom: 15px;
+    font-size: 2.2rem;
+  }
+  .special-offers .container .offer-box .offer-img {
+    height: 200px;
+  }
+  .special-offers .container .offer-box .first-special {
+    background-image: url("../img/offers/nigiriOffer-desktop.png");
+  }
+  .special-offers .container .offer-box .second-special {
+    background-image: url("../img/offers/makiOffer-desktop.png");
+  }
+  .special-offers .container .offer-box .third-special {
+    background-image: url("../img/offers/setOffer-desktop.png");
+  }
+  .special-offers .container .offer-box .offer-txt {
+    padding-top: 15px;
+    font-size: 1.7rem;
+    letter-spacing: 1.2px;
+  }
+  .special-offers .container .offer-box .offer-txt::first-letter {
+    font-size: 2rem;
+  }
+  .special-offers .container .offer-box .offer-price {
+    font-size: 2.2rem;
+  }
+  .special-offers .container .offer-box:hover {
+    width: 320px;
+  }
   .menu .menu-bg {
+    height: 70vh;
     background-image: url("../img/menu-img-desktop.jpg");
+  }
+  .menu .menu-bg .menu-img {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url("../img/menu/menu-preview-mobile.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 80%;
+  }
+  .menu .menu-bg .menu-action-txt {
+    bottom: 35px;
+    font-size: 1.3rem;
+  }
+  .book-table .book-table-txt {
+    bottom: 35%;
+    font-size: 2.2rem;
+  }
+  .book-table i.fa-circle-down {
+    bottom: 15%;
+    font-size: 5rem;
+  }
+  .book-table-form {
+    padding: 15px;
+  }
+  .book-table-form legend {
+    font-size: 1.7rem;
+  }
+  .book-table-form label {
+    padding-left: 20px;
+    font-size: 1.7rem;
+  }
+  .book-table-form input {
+    font-size: 1.5rem;
+  }
+  .book-table-form button {
+    padding: 15px 20px;
+    font-size: 1.5rem;
+  }
+  .book-table-form p.send-confirmation {
+    font-size: 1.5rem;
+  }
+  .team .container .team-box .team-photo {
+    height: 300px;
+  }
+  .team .container .team-box .ceo {
+    background-image: url("../img/team/takumi-large.png");
+  }
+  .team .container .team-box .sushi-master {
+    background-image: url("../img/team/yuto-large.png");
+  }
+  .team .container .team-box .jr-sushi-master {
+    background-image: url("../img/team/hiro-large.png");
+  }
+  .team .container .team-box .chef {
+    background-image: url("../img/team/jiro-large.png");
+  }
+  .team .container .team-box .sweets-master {
+    background-image: url("../img/team/yoko-large.png");
+  }
+  .team .container .team-box .bartender {
+    background-image: url("../img/team/miles-large.png");
+  }
+  .team .container .team-box .waiter {
+    background-image: url("../img/team/lena-large.png");
+  }
+  .team .container .team-box p {
+    margin-top: 30px;
+    font-size: 1.7rem;
+  }
+  .contact .container .social-media {
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 10px 35px;
+  }
+  .contact .container .social-media a .fa-brands {
+    font-size: 6rem;
+  }
+  .contact .container .address h3 {
+    font-size: 2.5rem;
+  }
+  .contact .container .address p {
+    padding-top: 4px;
+    font-size: 2rem;
+  }
+  .go-up {
+    display: none;
+  }
+  .disclaimer .disclaimer-header {
+    padding: 20px;
+    font-size: 2rem;
+  }
+  .disclaimer .disclaimer-note {
+    font-size: 1.5rem;
+    margin: 5px 15px 20px;
+  }
+  footer {
+    font-size: 2.5rem;
+  }
+  footer i.fa-copyright {
+    font-size: 2.5rem;
   }
 }/*# sourceMappingURL=main.css.map */
