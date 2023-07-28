@@ -631,7 +631,8 @@ footer i.fa-copyright {
   }
   .contact .container .address {
     width: 100%;
-    padding: 1.3rem 1.3rem 2rem 4rem;
+    padding: 1.3rem 1.3rem 2rem;
+    text-align: center;
   }
   .contact .container .address h3 {
     font-family: "Kanit", sans-serif;
