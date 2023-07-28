@@ -226,6 +226,9 @@ header {
 		@include container;
 		.offer-box {
 			@include box;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
 			background-color: colors.$mainColor;
 			box-shadow: rgb(163, 57, 0) 0px 0 15px;
 			.offer-header {

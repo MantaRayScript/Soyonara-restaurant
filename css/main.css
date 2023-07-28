@@ -207,6 +207,9 @@ header .fa-chevron-down {
   margin: 15px;
   width: 300px;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #ea9561;
   box-shadow: rgb(163, 57, 0) 0px 0 15px;
 }
