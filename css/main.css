@@ -775,7 +775,7 @@ footer i.fa-copyright {
     font-size: 2.2rem;
   }
   .special-offers .container .offer-box:hover {
-    width: 320px;
+    scale: 1.1;
   }
   .menu .menu-bg {
     height: 70vh;
@@ -825,6 +825,9 @@ footer i.fa-copyright {
   .book-table-form p.send-confirmation {
     font-size: 1.5rem;
   }
+  .team .container .team-box {
+    transition: 2s;
+  }
   .team .container .team-box .team-photo {
     height: 300px;
   }
@@ -852,6 +855,9 @@ footer i.fa-copyright {
   .team .container .team-box p {
     margin-top: 30px;
     font-size: 1.7rem;
+  }
+  .team .container .team-box:hover {
+    scale: 1.1;
   }
   .contact .container .social-media {
     justify-content: space-around;
