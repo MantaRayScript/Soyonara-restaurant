@@ -795,11 +795,24 @@ footer {
 		}
 		.fa-chevron-down {
 			font-size: 6.5rem;
-			transition: 2s;
+			animation: 1s linear 0s infinite pulse;
 		}
-		// animation for the chevron soon
-		.fa-chevron-down:hover {
-			font-size: 7rem;
+		@keyframes pulse {
+			0% {
+				bottom: 2%;
+			}
+			25% {
+				bottom: 2.5%
+			}
+			50% {
+				bottom: 2%;
+			}
+			75% {
+				bottom: 1.5%;
+			}
+			100% {
+				bottom: 2%
+			}
 		}
 	}
 	.about-us {
