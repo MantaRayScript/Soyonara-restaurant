@@ -744,7 +744,6 @@ footer i.fa-copyright {
   padding-bottom: 20px;
 }
 .special-offers .container .offer-box {
-  width: 30vw;
   transition: 2s;
 }
 .special-offers .container .offer-box .offer-header {
@@ -847,7 +846,6 @@ footer i.fa-copyright {
 }
 
 .team .container .team-box {
-  width: 27vw;
   transition: 2s;
 }
 .team .container .team-box .team-photo {
