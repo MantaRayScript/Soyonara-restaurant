@@ -754,7 +754,7 @@ footer {
 						transition: 1s;
 					}
 					a:hover {
-						color: colors.$darkMainColor
+						color: colors.$darkMainColor;
 					}
 				}
 			}
@@ -780,249 +780,243 @@ footer {
 				a {
 					font-size: 2.2rem;
 				}
-				// źle ustawiony font size i hover
-				.hero-btn:hover {
-					a {
-						font-size: 2.5rem;
-					}
-				}
-			}
-		}
-		.see-the-menu {
-			top: 85%;
-			font-size: 2.5rem;
-			letter-spacing: 2px;
-		}
-		.fa-chevron-down {
-			font-size: 6.5rem;
-			animation: 1s linear 0s infinite pulse;
-		}
-		@keyframes pulse {
-			0% {
-				bottom: 2%;
-			}
-			25% {
-				bottom: 2.5%
-			}
-			50% {
-				bottom: 2%;
-			}
-			75% {
-				bottom: 1.5%;
-			}
-			100% {
-				bottom: 2%
 			}
 		}
 	}
-	.about-us {
-		margin-bottom: 25px;
-		.wrapper {
-			.about-us-img {
-				margin: 15px 0 15px;
-				height: 50vh;
-				width: 85vw;
-				background-image: images.$aboutUsImageDesktop;
+	.see-the-menu {
+		top: 70%;
+		font-size: 2.5rem;
+		letter-spacing: 2px;
+	}
+	.fa-chevron-down {
+		font-size: 6.5rem;
+		animation: 2s linear 0s infinite pulse;
+	}
+	@keyframes pulse {
+		0% {
+			bottom: 2%;
+		}
+		25% {
+			bottom: 2.5%;
+		}
+		50% {
+			bottom: 2%;
+		}
+		75% {
+			bottom: 1.5%;
+		}
+		100% {
+			bottom: 2%;
+		}
+	}
+}
+.about-us {
+	margin-bottom: 25px;
+	.wrapper {
+		.about-us-img {
+			margin: 15px 0 15px;
+			height: 50vh;
+			width: 85vw;
+			background-image: images.$aboutUsImageDesktop;
+		}
+		.about-us-txt {
+			margin-bottom: 15px;
+			font-size: 1.7rem;
+			letter-spacing: 1.2px;
+		}
+		.about-us-txt::first-letter {
+			font-size: 2rem;
+		}
+	}
+}
+.special-offers {
+	.container {
+		padding-bottom: 20px;
+		.offer-box {
+			width: 30vw;
+			transition: 2s;
+			.offer-header {
+				padding-bottom: 15px;
+				font-size: 2.2rem;
 			}
-			.about-us-txt {
-				margin-bottom: 15px;
+			.offer-img {
+				height: 200px;
+			}
+			.first-special {
+				background-image: images.$firstOfferPhotoDesktop;
+			}
+			.second-special {
+				background-image: images.$secondOfferPhotoDesktop;
+			}
+			.third-special {
+				background-image: images.$thirdOfferPhotoDesktop;
+			}
+			.offer-txt {
+				padding-top: 15px;
 				font-size: 1.7rem;
 				letter-spacing: 1.2px;
 			}
-			.about-us-txt::first-letter {
+			.offer-txt::first-letter {
+				font-size: 2rem;
+			}
+			.offer-price {
+				font-size: 2.2rem;
+			}
+		}
+		.offer-box:hover {
+			scale: 1.1;
+		}
+	}
+}
+.menu {
+	.menu-bg {
+		height: 70vh;
+		background-image: images.$menuBgDesktop;
+		.menu-img {
+			position: absolute;
+			top: 12%;
+			left: 50%;
+			transform: translate(-50%);
+			background-image: images.$menuPrvwMobile;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			width: 50%;
+			height: 80%;
+		}
+		.menu-action-txt {
+			bottom: 35px;
+			font-size: 1.3rem;
+		}
+	}
+}
+.book-table {
+	.book-table-txt {
+		bottom: 35%;
+		font-size: 2.2rem;
+	}
+	i.fa-circle-down {
+		font-size: 5rem;
+		animation: 2s linear 0s infinite pulse;
+	}
+	@keyframes pulse {
+		0% {
+			bottom: 15%;
+		}
+		25% {
+			bottom: 18%;
+		}
+		50% {
+			bottom: 12%;
+		}
+		75% {
+			bottom: 18%;
+		}
+		100% {
+			bottom: 12%;
+		}
+	}
+}
+
+.book-table-form {
+	padding: 15px;
+	legend {
+		font-size: 1.7rem;
+	}
+	label {
+		padding-left: 20px;
+		font-size: 1.7rem;
+	}
+	input {
+		font-size: 1.5rem;
+	}
+	button {
+		padding: 15px 20px;
+		font-size: 1.5rem;
+	}
+	p.send-confirmation {
+		font-size: 1.5rem;
+	}
+}
+.team {
+	.container {
+		.team-box {
+			width: 27vw;
+			.team-photo {
+				height: 300px;
+			}
+			.ceo {
+				background-image: images.$ceoDesktop;
+			}
+			.sushi-master {
+				background-image: images.$sushiMasterDesktop;
+			}
+			.jr-sushi-master {
+				background-image: images.$jrSushiMasterDesktop;
+			}
+			.chef {
+				background-image: images.$chefDesktop;
+			}
+			.sweets-master {
+				background-image: images.$sweetsMasterDesktop;
+			}
+			.bartender {
+				background-image: images.$bartenderDesktop;
+			}
+			.waiter {
+				background-image: images.$waiterDesktop;
+			}
+			p {
+				margin-top: 30px;
+				font-size: 1.7rem;
+			}
+			transition: 2s;
+		}
+		.team-box:hover {
+			scale: 1.1;
+		}
+	}
+}
+.contact {
+	.container {
+		.social-media {
+			justify-content: space-around;
+			width: 100%;
+			padding: 10px 10px 35px;
+			a {
+				.fa-brands {
+					font-size: 6rem;
+				}
+			}
+		}
+		.address {
+			h3 {
+				font-size: 2.5rem;
+			}
+			p {
+				padding-top: 4px;
 				font-size: 2rem;
 			}
 		}
 	}
-	.special-offers {
-		.container {
-			padding-bottom: 20px;
-			.offer-box {
-				width: 30vw;
-				transition: 2s;
-				.offer-header {
-					padding-bottom: 15px;
-					font-size: 2.2rem;
-				}
-				.offer-img {
-					height: 200px;
-				}
-				.first-special {
-					background-image: images.$firstOfferPhotoDesktop;
-				}
-				.second-special {
-					background-image: images.$secondOfferPhotoDesktop;
-				}
-				.third-special {
-					background-image: images.$thirdOfferPhotoDesktop;
-				}
-				.offer-txt {
-					padding-top: 15px;
-					font-size: 1.7rem;
-					letter-spacing: 1.2px;
-				}
-				.offer-txt::first-letter {
-					font-size: 2rem;
-				}
-				.offer-price {
-					font-size: 2.2rem;
-				}
-			}
-			.offer-box:hover {
-				scale: 1.1;
-			}
-		}
+}
+.go-up {
+	display: none;
+}
+.disclaimer {
+	.disclaimer-header {
+		padding: 20px;
+		font-size: 2rem;
 	}
-	.menu {
-		.menu-bg {
-			height: 70vh;
-			background-image: images.$menuBgDesktop;
-			.menu-img {
-				position: absolute;
-				top: 12%;
-				left: 50%;
-				transform: translate(-50%);
-				background-image: images.$menuPrvwMobile;
-				background-position: center;
-				background-size: cover;
-				background-repeat: no-repeat;
-				width: 50%;
-				height: 80%;
-			}
-			.menu-action-txt {
-				bottom: 35px;
-				font-size: 1.3rem;
-			}
-		}
+	.disclaimer-note {
+		font-size: 1.5rem;
+		margin: 5px 15px 20px;
 	}
-	.book-table {
-		.book-table-txt {
-			bottom: 35%;
-			font-size: 2.2rem;
-		}
-		i.fa-circle-down {
-			font-size: 5rem;
-			animation: 2s linear 0s infinite pulse;
-		}
-		@keyframes pulse {
-			0% {
-				bottom: 15%;
-			}
-			25% {
-				bottom: 18%
-			}
-			50% {
-				bottom: 12%;
-			}
-			75% {
-				bottom: 18%;
-			}
-			100% {
-				bottom: 12%
-			}
-		}
-	}
-
-	.book-table-form {
-		padding: 15px;
-		legend {
-			font-size: 1.7rem;
-		}
-		label {
-			padding-left: 20px;
-			font-size: 1.7rem;
-		}
-		input {
-			font-size: 1.5rem;
-		}
-		button {
-			padding: 15px 20px;
-			font-size: 1.5rem;
-		}
-		p.send-confirmation {
-			font-size: 1.5rem;
-		}
-	}
-	.team {
-		.container {
-			.team-box {
-				width: 27vw;
-				.team-photo {
-					height: 300px;
-				}
-				.ceo {
-					background-image: images.$ceoDesktop;
-				}
-				.sushi-master {
-					background-image: images.$sushiMasterDesktop;
-				}
-				.jr-sushi-master {
-					background-image: images.$jrSushiMasterDesktop;
-				}
-				.chef {
-					background-image: images.$chefDesktop;
-				}
-				.sweets-master {
-					background-image: images.$sweetsMasterDesktop;
-				}
-				.bartender {
-					background-image: images.$bartenderDesktop;
-				}
-				.waiter {
-					background-image: images.$waiterDesktop;
-				}
-				p {
-					margin-top: 30px;
-					font-size: 1.7rem;
-				}
-				transition: 2s;
-			}
-			.team-box:hover {
-				scale: 1.1;
-			}
-		}
-	}
-	.contact {
-		.container {
-			.social-media {
-				justify-content: space-around;
-				width: 100%;
-				padding: 10px 10px 35px;
-				a {
-					.fa-brands {
-						font-size: 6rem;
-					}
-				}
-			}
-			.address {
-				h3 {
-					font-size: 2.5rem;
-				}
-				p {
-					padding-top: 4px;
-					font-size: 2rem;
-				}
-			}
-		}
-	}
-	.go-up {
-		display: none;
-	}
-	.disclaimer {
-		.disclaimer-header {
-			padding: 20px;
-			font-size: 2rem;
-		}
-		.disclaimer-note {
-			font-size: 1.5rem;
-			margin: 5px 15px 20px;
-		}
-	}
-	footer {
+}
+footer {
+	font-size: 2.5rem;
+	i.fa-copyright {
 		font-size: 2.5rem;
-		i.fa-copyright {
-			font-size: 2.5rem;
-		}
 	}
 }
 
@@ -1030,4 +1024,3 @@ footer {
 
 @media (min-width: 1200px) {
 }
-
