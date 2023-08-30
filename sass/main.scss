@@ -838,6 +838,7 @@ footer {
 		.container {
 			padding-bottom: 20px;
 			.offer-box {
+				width: 30vw;
 				transition: 2s;
 				.offer-header {
 					padding-bottom: 15px;
@@ -900,10 +901,26 @@ footer {
 			font-size: 2.2rem;
 		}
 		i.fa-circle-down {
-			bottom: 15%;
 			font-size: 5rem;
+			animation: 2s linear 0s infinite pulse;
 		}
-		// animation for the icon
+		@keyframes pulse {
+			0% {
+				bottom: 15%;
+			}
+			25% {
+				bottom: 18%
+			}
+			50% {
+				bottom: 12%;
+			}
+			75% {
+				bottom: 18%;
+			}
+			100% {
+				bottom: 12%
+			}
+		}
 	}
 
 	.book-table-form {
@@ -929,6 +946,7 @@ footer {
 	.team {
 		.container {
 			.team-box {
+				width: 27vw;
 				.team-photo {
 					height: 300px;
 				}

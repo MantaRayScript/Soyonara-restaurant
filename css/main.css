@@ -745,6 +745,7 @@ footer i.fa-copyright {
     padding-bottom: 20px;
   }
   .special-offers .container .offer-box {
+    width: 30vw;
     transition: 2s;
   }
   .special-offers .container .offer-box .offer-header {
@@ -802,8 +803,25 @@ footer i.fa-copyright {
     font-size: 2.2rem;
   }
   .book-table i.fa-circle-down {
-    bottom: 15%;
     font-size: 5rem;
+    animation: 2s linear 0s infinite pulse;
+  }
+  @keyframes pulse {
+    0% {
+      bottom: 15%;
+    }
+    25% {
+      bottom: 18%;
+    }
+    50% {
+      bottom: 12%;
+    }
+    75% {
+      bottom: 18%;
+    }
+    100% {
+      bottom: 12%;
+    }
   }
   .book-table-form {
     padding: 15px;
@@ -826,6 +844,7 @@ footer i.fa-copyright {
     font-size: 1.5rem;
   }
   .team .container .team-box {
+    width: 27vw;
     transition: 2s;
   }
   .team .container .team-box .team-photo {
