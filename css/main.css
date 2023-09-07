@@ -26,7 +26,6 @@ h2 {
   top: 10px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 2rem;
   font-family: "Stalinist One", cursive;
 }
 
@@ -54,14 +53,12 @@ h2 {
 }
 .nav .logotype h1 {
   font-family: "Stalinist One", cursive;
-  font-size: 2.1rem;
   color: #e56517;
 }
 .nav .nav-icon {
   padding: 10px;
 }
 .nav i {
-  font-size: 3.5rem;
   color: #e56517;
 }
 .nav .nav-mobile {
@@ -80,7 +77,6 @@ h2 {
   background-color: #f6f6f6;
 }
 .nav .nav-mobile ul li a {
-  font-size: 1.5rem;
   font-weight: bold;
   color: #e56517;
   text-decoration: none;
@@ -120,15 +116,12 @@ header .hero-text {
 }
 header .hero-text h1 {
   font-family: "Stalinist One", cursive;
-  font-size: 3rem;
 }
 header .hero-text h1 span {
-  font-size: 3.5rem;
   color: #e56517;
 }
 header .hero-text p {
   font-family: "Kanit", sans-serif;
-  font-size: 1.5rem;
   text-shadow: #242322 1px 0 10px;
 }
 header .hero-text .hero-btn {
@@ -139,7 +132,6 @@ header .hero-text .hero-btn a {
   border: 2px solid #e56517;
   border-radius: 10px;
   background-color: #e56517;
-  font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
   color: #f6f6f6;
@@ -150,7 +142,6 @@ header .see-the-menu {
   left: 50%;
   transform: translateX(-50%);
   font-family: "Kanit", sans-serif;
-  font-size: 1.8rem;
   letter-spacing: 2px;
 }
 header .fa-chevron-down {
@@ -158,7 +149,6 @@ header .fa-chevron-down {
   bottom: 2%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 4.5rem;
   color: #f6f6f6;
   color: #ea9561;
 }
@@ -185,12 +175,10 @@ header .fa-chevron-down {
 .about-us .wrapper .about-us-txt {
   margin-bottom: 5px;
   width: 85%;
-  font-size: 1.3rem;
   letter-spacing: 1px;
 }
 .about-us .wrapper .about-us-txt::first-letter {
   font-weight: bold;
-  font-size: 1.5rem;
 }
 
 .special-offers {
@@ -216,7 +204,6 @@ header .fa-chevron-down {
 .special-offers .container .offer-box .offer-header {
   padding-bottom: 10px;
   text-align: center;
-  font-size: 1.6rem;
 }
 .special-offers .container .offer-box .offer-img {
   width: 100%;
@@ -237,17 +224,14 @@ header .fa-chevron-down {
 }
 .special-offers .container .offer-box .offer-txt {
   padding-top: 10px;
-  font-size: 1.3rem;
   letter-spacing: 1px;
 }
 .special-offers .container .offer-box .offer-txt::first-letter {
   font-weight: bold;
-  font-size: 1.5rem;
 }
 .special-offers .container .offer-box .offer-price {
   text-align: right;
   font-weight: bold;
-  font-size: 1.7rem;
 }
 
 .menu .menu-bg {
@@ -300,7 +284,6 @@ header .fa-chevron-down {
   left: 50%;
   transform: translate(-50%);
   bottom: 30%;
-  font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-align: center;
@@ -310,7 +293,6 @@ header .fa-chevron-down {
   left: 50%;
   transform: translateX(-50%);
   bottom: 5%;
-  font-size: 3.5rem;
 }
 
 .book-table-form {
@@ -326,7 +308,6 @@ header .fa-chevron-down {
 .book-table-form label {
   padding-left: 10px;
   font-weight: bold;
-  font-size: 1.2rem;
 }
 .book-table-form input {
   margin: 10px auto;
@@ -335,7 +316,6 @@ header .fa-chevron-down {
   left: 50%;
   transform: translate(-50%);
   width: 90%;
-  font-size: 1.1rem;
   text-align: center;
   border-radius: 10px;
 }
@@ -346,7 +326,6 @@ header .fa-chevron-down {
   margin: 10px auto 15px;
   padding: 10px 15px;
   text-transform: uppercase;
-  font-size: 1.1rem;
   font-weight: bold;
   border-radius: 10px;
 }
@@ -404,7 +383,6 @@ header .fa-chevron-down {
 }
 .team .container .team-box p {
   margin-top: 15px;
-  font-size: 1.4rem;
 }
 
 .contact {
@@ -423,21 +401,14 @@ header .fa-chevron-down {
   padding: 10px;
 }
 .contact .container .social-media a .fa-brands {
-  font-size: 4.5rem;
   color: #f6f6f6;
 }
 .contact .container .address {
   width: 100%;
-  padding: 1.3rem;
 }
 .contact .container .address h3 {
   font-family: "Kanit", sans-serif;
-  font-size: 1.6rem;
 }
-.contact .container .address p {
-  font-size: 1.3rem;
-}
-
 .go-up {
   display: none;
 }
@@ -447,12 +418,10 @@ header .fa-chevron-down {
 }
 .disclaimer .disclaimer-header {
   padding: 10px;
-  font-size: 1.3rem;
   text-transform: uppercase;
   text-decoration: underline;
 }
 .disclaimer .disclaimer-note {
-  font-size: 1.1rem;
   margin: 10px 15px;
 }
 .disclaimer .disclaimer-note a {
@@ -462,29 +431,20 @@ header .fa-chevron-down {
 footer {
   padding: 10px;
   text-align: center;
-  font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   background-color: #f6f6f6;
   color: #242322;
 }
-footer i.fa-copyright {
-  font-size: 1.5rem;
-}
-
 @media (min-width: 768px) {
   h2 {
     top: 20px;
-    font-size: 2.5rem;
   }
   .underline {
     top: 25px;
     margin-bottom: 40px;
     width: 100px;
     height: 6px;
-  }
-  .nav .logotype h1 {
-    font-size: 2.8rem;
   }
   .nav .nav-icon {
     display: none;
@@ -504,30 +464,16 @@ footer i.fa-copyright {
   }
   .nav .nav-desktop .nav-list li.nav-item a {
     padding: 10px;
-    font-size: 1.8rem;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
     color: #242322;
   }
-  header .hero-text h1 {
-    font-size: 4.5rem;
-  }
-  header .hero-text h1 span {
-    font-size: 5rem;
-  }
-  header .hero-text p {
-    font-size: 2rem;
-  }
   header .hero-text .hero-btn {
     margin-top: 30px;
   }
-  header .hero-text .hero-btn a {
-    font-size: 1.8rem;
-  }
   header .see-the-menu {
     top: 85%;
-    font-size: 2.2rem;
     letter-spacing: 2px;
   }
   header .fa-chevron-down {
@@ -538,32 +484,20 @@ footer i.fa-copyright {
   }
   .about-us .wrapper .about-us-txt {
     margin-bottom: 15px;
-    font-size: 1.7rem;
     letter-spacing: 1.2px;
-  }
-  .about-us .wrapper .about-us-txt::first-letter {
-    font-size: 2rem;
   }
   .special-offers .container {
     padding-bottom: 20px;
   }
   .special-offers .container .offer-box .offer-header {
     padding-bottom: 15px;
-    font-size: 2.2rem;
   }
   .special-offers .container .offer-box .offer-img {
     height: 200px;
   }
   .special-offers .container .offer-box .offer-txt {
     padding-top: 15px;
-    font-size: 1.7rem;
     letter-spacing: 1.2px;
-  }
-  .special-offers .container .offer-box .offer-txt::first-letter {
-    font-size: 2rem;
-  }
-  .special-offers .container .offer-box .offer-price {
-    font-size: 2.2rem;
   }
   .menu .menu-bg {
     height: 70vh;
@@ -582,95 +516,60 @@ footer i.fa-copyright {
   }
   .menu .menu-bg .menu-action-txt {
     bottom: 35px;
-    font-size: 1.3rem;
   }
   .book-table .book-table-txt {
     bottom: 35%;
-    font-size: 2.2rem;
   }
   .book-table i.fa-circle-down {
     bottom: 15%;
-    font-size: 5rem;
   }
   .book-table-form {
     padding: 15px;
   }
-  .book-table-form legend {
-    font-size: 1.7rem;
-  }
   .book-table-form label {
     padding-left: 20px;
-    font-size: 1.7rem;
-  }
-  .book-table-form input {
-    font-size: 1.5rem;
   }
   .book-table-form button {
     padding: 15px 20px;
-    font-size: 1.5rem;
-  }
-  .book-table-form p.send-confirmation {
-    font-size: 1.5rem;
   }
   .team .container .team-box .team-photo {
     height: 300px;
   }
   .team .container .team-box p {
     margin-top: 30px;
-    font-size: 1.7rem;
   }
   .contact .container .social-media {
     justify-content: space-around;
     padding: 10px 10px 35px;
   }
-  .contact .container .social-media a .fa-brands {
-    font-size: 6rem;
-  }
   .contact .container .address {
     padding: 1.3rem 1.3rem 2rem;
     text-align: center;
   }
-  .contact .container .address h3 {
-    font-size: 2.5rem;
-  }
   .contact .container .address p {
     padding-top: 4px;
-    font-size: 2rem;
   }
   .disclaimer .disclaimer-header {
     padding: 20px;
-    font-size: 2rem;
   }
   .disclaimer .disclaimer-note {
-    font-size: 1.5rem;
     margin: 5px 15px 20px;
-  }
-  footer {
-    font-size: 2.5rem;
-  }
-  footer i.fa-copyright {
-    font-size: 2.5rem;
   }
 }
 @media (min-width: 992px) {
   h2 {
     top: 30px;
-    font-size: 3rem;
   }
   .underline {
     top: 35px;
     margin-bottom: 55px;
     width: 120px;
   }
-  .nav .logotype h1 {
-    font-size: 3.5rem;
-  }
   .nav .nav-desktop .nav-list li.nav-item {
     padding-bottom: 25px;
   }
   .nav .nav-desktop .nav-list li.nav-item a {
     padding: 15px;
-    font-size: 2rem;
     transition: 1s;
   }
   .nav .nav-desktop .nav-list li.nav-item a:hover {
@@ -679,29 +578,15 @@ footer i.fa-copyright {
   header .hero-img {
     background-image: url("../img/hero-img-desktop.jpg");
   }
-  header .hero-text h1 {
-    font-size: 5rem;
-  }
-  header .hero-text h1 span {
-    font-size: 5.5rem;
-  }
-  header .hero-text p {
-    font-size: 2.5rem;
-  }
   header .hero-text .hero-btn {
     margin-top: 40px;
     transition: 2s;
   }
-  header .hero-text .hero-btn a {
-    font-size: 2.2rem;
-  }
   .see-the-menu {
     top: 70%;
-    font-size: 2.5rem;
     letter-spacing: 2px;
   }
   .fa-chevron-down {
-    font-size: 6.5rem;
     animation: 2s linear 0s infinite pulse;
   }
   @keyframes pulse {
@@ -733,13 +618,8 @@ footer i.fa-copyright {
 }
 .about-us .wrapper .about-us-txt {
   margin-bottom: 15px;
-  font-size: 1.7rem;
   letter-spacing: 1.2px;
 }
-.about-us .wrapper .about-us-txt::first-letter {
-  font-size: 2rem;
-}
-
 .special-offers .container {
   padding-bottom: 20px;
 }
@@ -748,7 +628,6 @@ footer i.fa-copyright {
 }
 .special-offers .container .offer-box .offer-header {
   padding-bottom: 15px;
-  font-size: 2.2rem;
 }
 .special-offers .container .offer-box .offer-img {
   height: 200px;
@@ -764,14 +643,7 @@ footer i.fa-copyright {
 }
 .special-offers .container .offer-box .offer-txt {
   padding-top: 15px;
-  font-size: 1.7rem;
   letter-spacing: 1.2px;
-}
-.special-offers .container .offer-box .offer-txt::first-letter {
-  font-size: 2rem;
-}
-.special-offers .container .offer-box .offer-price {
-  font-size: 2.2rem;
 }
 .special-offers .container .offer-box:hover {
   scale: 1.1;
@@ -795,15 +667,12 @@ footer i.fa-copyright {
 }
 .menu .menu-bg .menu-action-txt {
   bottom: 35px;
-  font-size: 1.3rem;
 }
 
 .book-table .book-table-txt {
   bottom: 35%;
-  font-size: 2.2rem;
 }
 .book-table i.fa-circle-down {
-  font-size: 5rem;
   animation: 2s linear 0s infinite pulse;
 }
 @keyframes pulse {
@@ -827,24 +696,12 @@ footer i.fa-copyright {
 .book-table-form {
   padding: 15px;
 }
-.book-table-form legend {
-  font-size: 1.7rem;
-}
 .book-table-form label {
   padding-left: 20px;
-  font-size: 1.7rem;
-}
-.book-table-form input {
-  font-size: 1.5rem;
 }
 .book-table-form button {
   padding: 15px 20px;
-  font-size: 1.5rem;
 }
-.book-table-form p.send-confirmation {
-  font-size: 1.5rem;
-}
-
 .team .container .team-box {
   transition: 2s;
 }
@@ -874,7 +731,6 @@ footer i.fa-copyright {
 }
 .team .container .team-box p {
   margin-top: 30px;
-  font-size: 1.7rem;
 }
 .team .container .team-box:hover {
   scale: 1.1;
@@ -885,15 +741,8 @@ footer i.fa-copyright {
   width: 100%;
   padding: 10px 10px 35px;
 }
-.contact .container .social-media a .fa-brands {
-  font-size: 6rem;
-}
-.contact .container .address h3 {
-  font-size: 2.5rem;
-}
 .contact .container .address p {
   padding-top: 4px;
-  font-size: 2rem;
 }
 
 .go-up {
@@ -902,16 +751,7 @@ footer i.fa-copyright {
 
 .disclaimer .disclaimer-header {
   padding: 20px;
-  font-size: 2rem;
 }
 .disclaimer .disclaimer-note {
-  font-size: 1.5rem;
   margin: 5px 15px 20px;
-}
-
-footer {
-  font-size: 2.5rem;
-}
-footer i.fa-copyright {
-  font-size: 2.5rem;
 }/*# sourceMappingURL=main.css.map */
